@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face{
+    font-family: "Noodle";
+    src: url(font/big_noodle_titling.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
     background-image: url("img/cat.gif");
@@ -37,6 +44,7 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
     border: 0px solid red;
 }
 
@@ -69,8 +77,8 @@ video{
     padding: 25px;
     background-color: rgb(175, 164, 143);
     color: rgb(45, 39, 63);
-    font-size: 25px;
-    font-family: Tahoma, sans-serif;
+    font-size: 39px;
+    font-family:  Noodle, sans-serif;
     max-width: 350px;
     margin-bottom: 0px;
     margin: 30px;
@@ -84,8 +92,8 @@ video{
     padding: 25px;
     background-color: rgb(175, 164, 143);
     color: rgb(45, 39, 63);
-    font-size: 25px;
-    font-family: Tahoma, sans-serif;
+    font-size:38px;
+    font-family: Noodle, sans-serif;
     max-width: 350px;
     margin-bottom: 100px;
     margin: 30px;
